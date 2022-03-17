@@ -59,7 +59,17 @@ TEST(equation_Positive_Test, test4) {
         FAIL();
 }
 
-TEST(equation_Negative_Test, test5) {
+TEST(equation_Positive_Test, test5) {
+    double x1 = 0;
+    double x2 = 0;
+
+    EXPECT_EQ(equation(3, 6, 3, &x1, &x2), 0);
+
+    if (x1 != 0.0)
+        SUCCEED();
+}
+
+TEST(equation_Negative_Test, test6) {
     double x1 = 0;
     double x2 = 0;
 
@@ -71,7 +81,7 @@ TEST(equation_Negative_Test, test5) {
         FAIL();
 }
 
-TEST(equation_Negative_Test, test6) {
+TEST(equation_Negative_Test, test7) {
     double x1 = 0;
     double x2 = 0;
 
@@ -83,7 +93,7 @@ TEST(equation_Negative_Test, test6) {
         FAIL();
 }
 
-TEST(equation_Negative_Test, test7) {
+TEST(equation_Negative_Test, test8) {
     double x1 = 0;
     double x2 = 0;
 
@@ -95,7 +105,7 @@ TEST(equation_Negative_Test, test7) {
         FAIL();
 }
 
-TEST(equation_Negative_Test, test8) {
+TEST(equation_Negative_Test, test9) {
     double x1 = 0;
     double x2 = 0;
 
@@ -107,7 +117,7 @@ TEST(equation_Negative_Test, test8) {
         FAIL();
 }
 
-TEST(equation_Negative_Test, test9) {
+TEST(equation_Negative_Test, test10) {
     double x1 = 0;
     double x2 = 0;
 

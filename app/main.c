@@ -6,7 +6,7 @@ int main() {
     x1 = 0;
     x2 = 0;
 
-    int rezult = equation(01762, 0, 0, &x1, &x2);
+    int rezult = equation(3, 6, 3, &x1, &x2);
 
     if (rezult == 1)
         printf("x1 = %lf; x2 = %lf\n", x1, x2);

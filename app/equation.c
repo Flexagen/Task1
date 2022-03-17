@@ -18,7 +18,7 @@ int equation (double a, double b, double c, double *x1, double *x2) {
     }
 
     if (d == 0.0 && a != 0.0 && b != 0.0) {
-        *x1 = -(b / (2 * a));
+        *x1 = -(b / 2 * a);
         return 0;
     }
 
