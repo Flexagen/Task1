@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-02-24T10:45:12. -->
+<!-- Written by QtCreator 6.0.2, 2022-03-13T20:22:06. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -67,7 +67,19 @@
     <value type="bool" key="AutoTest.Framework.QtQuickTest">true</value>
     <value type="bool" key="AutoTest.Framework.QtTest">true</value>
    </valuemap>
-   <valuemap type="QVariantMap" key="AutoTest.CheckStates"/>
+   <valuemap type="QVariantMap" key="AutoTest.CheckStates">
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:equation_Negative_Test">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:equation_Positive_Test">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test1">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test2">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test3">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test4">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test5">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test6">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test7">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test8">Checked</value>
+    <value type="Qt::CheckState" key="1@/home/mpavlov/Documents/task1/tests/equation_test.h:test9">Checked</value>
+   </valuemap>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
    <value type="bool" key="AutoTest.UseGlobal">true</value>
    <valuelist type="QVariantList" key="ClangCodeModel.CustomCommandLineKey"/>
@@ -97,8 +109,8 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -136,8 +148,8 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -177,8 +189,8 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -245,7 +257,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug/app</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug/app</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -261,7 +273,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/mpavlov/Desktop/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug/tests</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/mpavlov/Documents/build-qmake-gtest-Desktop_Qt_6_2_3_GCC_64bit-Debug/tests</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">2</value>
   </valuemap>

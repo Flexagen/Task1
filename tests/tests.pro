@@ -16,13 +16,12 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-#HEADERS += 
+HEADERS +=    \
+     equation_test.h
 
-SOURCES +=   
+SOURCES +=  main.cpp \
+        ../app/equation.c
 
 INCLUDEPATH += ../app
 
-DISTFILES += \
-    input/TestSTDOut_output.txt
-
-HEADERS +=
+DISTFILES +=
