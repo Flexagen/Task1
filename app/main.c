@@ -2,11 +2,12 @@
 #include "equation.h"
 
 int main() {
-    double x1, x2;
+    double x1;
+    double x2;
     x1 = 0;
     x2 = 0;
 
-    int rezult = equation(3, 6, 3, &x1, &x2);
+    int rezult = equation(25, 0, 625, &x1, &x2);
 
     if (rezult == 1)
         printf("x1 = %lf; x2 = %lf\n", x1, x2);
